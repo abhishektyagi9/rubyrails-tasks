@@ -24,6 +24,29 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+#customer gems
+
+gem 'aasm', '~> 5.0.8'
+gem 'active_storage_validations', '~> 0.8.9'
+gem 'administrate', '>= 0.12'
+gem 'administrate-field-active_storage'
+gem 'administrate-field-nested_has_many'
+gem 'administrate-field-scoped_has_many'
+gem 'aws-sdk-s3', require: false
+gem 'azure-storage', '~> 0.14.0.preview'
+gem 'bootstrap4-kaminari-views' # for adminstrate's pagination
+gem 'devise', '~> 4.7.3'
+gem 'faker'
+gem 'money-rails', '~> 1'
+gem 'newrelic_rpm'
+gem 'phony_rails', '~> 0.14.13'
+
+gem 'pundit'
+gem 'rails-settings-cached', '~> 2.0'
+gem 'sidekiq'
+gem 'sprockets', '3.7.2'
+gem 'twilio-ruby', '~> 5.45.0'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
